@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 12cm;
+}
+
+.qrWrapper svg path:last-child{
+    fill:#0000ff6b;
+}
+
+.input {
+    margin-top: 30px;
+    border-radius: 5px;
+    border: .3px solid rgba(44, 41, 216, 0.384);
+    color: rgba(43, 58, 190, 0.267);
+    background: rgba(193, 202, 214, 0.63);
+    width: 400px;
+    height: 50px;
+    padding: 8px 16px;
+    font-size: 32px;
+}
+
+
+.button {
+    border: none;
+    background: #0026ff6e;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 13px;
+    padding: 8px 16px;
+
+}
